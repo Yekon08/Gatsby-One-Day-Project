@@ -5,8 +5,8 @@ import GetAllChamp from "../components/GetAllChamp";
 const IndexPage = () => {
   return (
     <Layout>
-      <title>Hello World</title>
-      <h1>Bonjour</h1>
+      <title>Home</title>
+      <h1 className="font-bold text-2xl">Tous les champions</h1>
       <GetAllChamp />
     </Layout>
   );
