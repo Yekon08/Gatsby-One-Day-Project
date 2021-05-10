@@ -58,6 +58,7 @@ const GetAllChamp = () => {
 
   return (
     <div className="flex justify-center items-center flex-col">
+      <p>bonjour ceci est un test</p>
       <div className="p-4 flex justify-center items-center flex-wrap">
         {currentChamp.map((champ) => {
           const image = getImage(champ.node.remoteImage);
