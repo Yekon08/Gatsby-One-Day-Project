@@ -44,7 +44,9 @@ const GetAllChamp = () => {
   const renderPageNumbers = pageNumbers.map((number) => {
     return (
       <li
-        className={`m-3 ${}`}
+        className={`m-3 rounded-lg p-2 cursor-pointer ${
+          currentPage == number && "bg-blue-200"
+        }`}
         key={number}
         id={number}
         onClick={(e) => setCurrentPage(e.target.id)}
